@@ -9,5 +9,12 @@
     android:layout_height="wrap_content" 
     android:text="@string/intro"
     />
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:layout_gravity="center"
+        android:src="@drawable/cow200"
+       />
 </LinearLayout>
 
