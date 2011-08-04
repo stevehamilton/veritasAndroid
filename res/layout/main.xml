@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    <RelativeLayout
+    android:id="@+id/widget34"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/intro"
-    />
-    <ImageView
+        <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:scaleType="fitStart"
-        android:layout_gravity="center"
-        android:src="@drawable/cow200"
-       />
-</LinearLayout>
+        android:text="@string/intro"
+        />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:layout_gravity="center"
+            android:src="@drawable/cow200"
+           />
+    <Button
+    android:id="@+id/widget32"
+    android:layout_width="61px"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1px"
+    android:text="Find"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    >
+    </Button>
+    <EditText
+    android:id="@+id/widget33"
+    android:layout_width="254px"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:gravity="left"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    >
+    </EditText>
+    <ImageButton
+    android:id="@+id/widget36"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/process"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    >
+    </ImageButton>
+    </RelativeLayout>
+
 

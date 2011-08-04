@@ -2,6 +2,7 @@ package com.veritasFood.veritasAndroid;
 
 import android.app.Activity;
 import android.os.Bundle;
+/** import android;    */
 
 public class MyActivity extends Activity
 {
